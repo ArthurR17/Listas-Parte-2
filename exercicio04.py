@@ -6,5 +6,6 @@ while True:
     compras.append(produto)
 
 for e in compras:
-    print(e)
+    print(f"Você escolheu os produtos: {compras}")
+    break
 
